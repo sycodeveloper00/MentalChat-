@@ -1,2 +1,2 @@
-# MentalChat-
+# MentalChat
 MentalChat App
