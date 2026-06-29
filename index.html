@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MentalChat — Download</title>
+  <link rel="icon" type="image/png" href="icon.png">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f4f8; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 1rem; }
+    .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 2rem 2.5rem; max-width: 420px; width: 100%; text-align: center; }
+    .icon-wrap { width: 80px; height: 80px; margin: 0 auto 1.25rem; }
+    .icon-wrap img { width: 80px; height: 80px; border-radius: 18px; object-fit: cover; }
+    .app-name { font-size: 22px; font-weight: 600; color: #1a202c; margin-bottom: 4px; }
+    .app-sub { font-size: 14px; color: #718096; margin-bottom: 1.75rem; }
+    .info-row { display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 1.75rem; }
+    .info-item { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+    .info-label { font-size: 11px; color: #a0aec0; text-transform: uppercase; letter-spacing: 0.5px; }
+    .info-value { font-size: 14px; font-weight: 500; color: #4a5568; }
+    .divider { border: none; border-top: 1px solid #e2e8f0; margin-bottom: 1.75rem; }
+    .dl-btn { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 14px 24px; background: #3B82F6; color: #fff; border: none; border-radius: 12px; font-size: 16px; font-weight: 500; cursor: pointer; text-decoration: none; transition: background 0.15s; }
+    .dl-btn:hover { background: #2563EB; }
+    .note { margin-top: 1.25rem; font-size: 13px; color: #4a5568; line-height: 1.8; text-align: left; }
+    .note ol { padding-left: 1.25rem; margin: 0.5rem 0; }
+    .note ol li { margin-bottom: 0.35rem; }
+    .warn { margin-top: 0.75rem; padding: 0.6rem 0.75rem; background: #FFFBEB; border: 1px solid #F59E0B; border-radius: 8px; color: #92400E; font-size: 12px; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <div class="card">
+
+    <!-- App Icon -->
+    <div class="icon-wrap">
+      <img src="icon.png" alt="MentalChat Logo">
+    </div>
+
+    <div class="app-name">MentalChat</div>
+    <div class="app-sub">Beta release — Android</div>
+
+    <div class="info-row">
+      <div class="info-item">
+        <span class="info-label">Version</span>
+        <span class="info-value">v1.0.0</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Platform</span>
+        <span class="info-value">Android</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Format</span>
+        <span class="info-value">APK</span>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <a class="dl-btn" href="https://github.com/sycodeveloper00/MentalChat-/releases/download/v1.0.0/MentalChat.v1.0.0.apk" download="MentalChat.v1.0.0.apk">
+      ⬇ Download APK
+    </a>
+
+    <div class="note">
+      To install this app on Android:
+      <ol>
+        <li>Click <strong>Download APK</strong> to download the file.</li>
+        <li>Go to <strong>Settings → Security → Unknown Sources</strong> and enable the toggle.</li>
+        <li>Open the downloaded APK from your file manager and tap <strong>Install</strong>.</li>
+        <li>Once installed, open the app and enjoy!</li>
+      </ol>
+      <div class="warn">
+        ⚠️ You must enable <strong>"Unknown Sources"</strong> in Settings to install apps outside the Play Store.
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
